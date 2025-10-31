@@ -1,7 +1,7 @@
 ## Lyrics LRC files
 
 **General**
-- [colors:0xFFFFFFFF] and [chordsColors:0xFF4CAF50] must always be present
+- `[colors:0xFFFFFFFF]` and `[chordsColors:0xFF4CAF50]` must always be present
 - All LRC timestamps must be `[MM:SS.mmm]` (two-digit minutes, two-digit seconds, three-digit millis).
 - Hours are not used; do not accept `[H:MM:SS]` or `[M:SS.xx]`.
 - Keep `[00:00.000]` title lines unchanged unless told otherwise.
