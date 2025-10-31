@@ -7,6 +7,7 @@
 - Keep `[00:00.000]` title lines unchanged unless told otherwise.
 - When asked to retime from a given timestamp, apply the offset to that line and every subsequent line, earlier lines unchanged.
 - Preserve existing whitespace/indentation and ordering.
+- Use the correct writing characters. For example, replace apostrophes `'` with proper apostrophe sign `’`, `...` with `…`, etc.
 
 **Formatting invariants**
 - Normalize `[1:01.10]` → `[01:01.100]`
